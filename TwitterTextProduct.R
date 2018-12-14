@@ -10,9 +10,7 @@ library(dplyr)
 library(tidyr)
 require(RColorBrewer)
 
-setup_twitter_oauth("xbatHk0NDFukIusWndqjgHa40", "Js5hAFKhAS7AIrurk37YxFXDc7gN7Q71dKfulWDawI22XKYDmV", 
-                    "2706762589-cixCloZnfKjJEZyt414mkrYZwETcItJaNOTMc7J",
-                    "Qt9ZfdiE2cBqWdTL2EJWPot9bHLt6D3KxRf9v4WpGLmGY")
+## setup_twitter_oauth()
 
 
 twitter.function <- function(searchterm, numTweets, remove.words, minFreq, maxWords) {
